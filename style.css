@@ -1,0 +1,54 @@
+.heading {
+  text-align: center;
+  background-color: #eee;
+  padding: 1.5rem;
+  z-index: 1;
+}
+
+.heading:hover {
+  text-decoration: underline;
+  transform: scale(1.02);
+}
+img {
+  width: 15%;
+  border: 1rem;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img:hover {
+  transform: scale(1.05);
+}
+span {
+  font-size: 1rem;
+}
+.personaldetails:hover {
+  transform: scale(1.02);
+}
+.personaldetails {
+  text-align: center;
+}
+.icons {
+  text-align: center;
+  font-size: 1.17rem;
+  align-items: center;
+  padding: 1rem;
+}
+.twitter {
+  padding: 0.5rem;
+}
+.linkedin {
+  padding: 0.5rem;
+}
+.git {
+  padding: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.icons:hover {
+  transform: scale(1.02);
+  text-decoration: underline;
+}
